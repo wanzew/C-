@@ -2,8 +2,29 @@
 
 namespace maxHeap {
 
+	maxHeap::maxHeap(int capa) {
 
+	}
 
+	maxHeap::~maxHeap() {
+
+	}
+
+	void maxHeap::maxHeapUp(int index) {
+
+	}
+
+	void maxHeap::maxHeapDown(int index) {
+
+	}
+
+	void maxHeap::insert(int item) {
+
+	}
+
+	int maxHeap::max() {
+
+	}
 
 	void maxHeap::testPrint() {
 
@@ -61,18 +82,6 @@ namespace maxHeap {
 			cout << line2 << endl;
 
 			cur_tree_max_level_number /= 2;
-		}
-	}
-
-	void maxHeap::maxHeapDown(int index) {
-		while (2 * index <= count) {
-			int sub_left = 2 * index;
-			int max_side = sub_left;
-			if (sub_left + 1 <= count && data[sub_left + 1] > data[sub_left])
-				max_side = sub_left + 1;
-			if (data[index] < data[max_side])
-				swap(data[index], data[max_side]);
-			index = max_side;
 		}
 	}
 
