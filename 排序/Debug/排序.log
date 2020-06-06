@@ -1,0 +1,9 @@
+﻿  排序.cpp
+c:\users\wanzew\documents\visual studio 2015\projects\c++数据结构和算法\排序\quicksort.hpp(23): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\wanzew\documents\visual studio 2015\projects\c++数据结构和算法\排序\quicksort.hpp(44): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\wanzew\documents\visual studio 2015\projects\c++数据结构和算法\排序\quicksort.hpp(81): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  TestHelper.cpp
+c:\users\wanzew\documents\visual studio 2015\projects\c++数据结构和算法\排序\testhelper.cpp(6): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  排序.vcxproj -> C:\Users\wanzew\Documents\Visual Studio 2015\Projects\C++数据结构和算法\Debug\排序.exe
+  排序.vcxproj -> C:\Users\wanzew\Documents\Visual Studio 2015\Projects\C++数据结构和算法\Debug\排序.pdb (Full PDB)
