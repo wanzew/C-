@@ -1,6 +1,6 @@
 #include"binarySearch.h"
-#include"../≈≈–Ú/quickSort.hpp"
-#include"../≈≈–Ú/TestHelper.hpp"
+#include"quickSort.hpp"
+#include"TestHelper.hpp"
 
 using namespace std;
 

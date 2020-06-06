@@ -1,11 +1,7 @@
-﻿  TestHelper.cpp
-c:\users\wanzew\documents\visual studio 2015\projects\cxx-data-struct-algo\heap\testhelper.cpp(6): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  priorityQueue.cpp
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Heap.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   maxHeap.cpp
-c:\users\wanzew\documents\visual studio 2015\projects\cxx-data-struct-algo\heap\maxheap.cpp(107): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\wanzew\documents\visual studio 2015\projects\cxx-data-struct-algo\heap\maxheap.cpp(125): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\wanzew\documents\visual studio 2015\projects\cxx-data-struct-algo\heap\maxheap.cpp(127): warning C4018: “<”: 有符号/无符号不匹配
-  main.cpp
-  正在生成代码...
-  Heap.vcxproj -> C:\Users\wanzew\Documents\Visual Studio 2015\Projects\CXX-Data-Struct-Algo\Debug\Heap.exe
-  Heap.vcxproj -> C:\Users\wanzew\Documents\Visual Studio 2015\Projects\CXX-Data-Struct-Algo\Debug\Heap.pdb (Full PDB)
+f:\stu\pro\09_git\tutorial\cxx-data-struct-algo\heap\maxheap.cpp(127): warning C4018: “<”: 有符号/无符号不匹配
+f:\stu\pro\09_git\tutorial\cxx-data-struct-algo\heap\maxheap.cpp(145): warning C4018: “<”: 有符号/无符号不匹配
+f:\stu\pro\09_git\tutorial\cxx-data-struct-algo\heap\maxheap.cpp(147): warning C4018: “<”: 有符号/无符号不匹配
+  Heap.vcxproj -> F:\Stu\Pro\09_Git\Tutorial\CXX-Data-Struct-Algo\Debug\01_Heap.exe
+  Heap.vcxproj -> F:\Stu\Pro\09_Git\Tutorial\CXX-Data-Struct-Algo\Debug\01_Heap.pdb (Full PDB)

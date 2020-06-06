@@ -2,28 +2,65 @@
 
 namespace maxHeap {
 
-	maxHeap::maxHeap(int capa) {
-
+	maxHeap::maxHeap(int capa)
+	: capacity(capa)
+	, count(0)
+	{
+		data = (int*)new int[capa];
 	}
 
 	maxHeap::~maxHeap() {
-
+		delete[] data;
 	}
 
-	void maxHeap::maxHeapUp(int index) {
-
-	}
-
-	void maxHeap::maxHeapDown(int index) {
-
+	int maxHeap::size()
+	{
+		return capacity;
 	}
 
 	void maxHeap::insert(int item) {
+		if (count < capacity)
+		{
+			data[++count] = item;
+			maxHeapUp(count);
+		}
+		else
+		{
+			cout << "Heap fulled." << endl;
+		}
+	}
 
+	void maxHeap::maxHeapUp(int index) {
+		while (index > 1 && data[index] < data[index / 2])
+		{
+			swap(data[index / 2], data[index]);
+			index /= 2;
+		}
 	}
 
 	int maxHeap::max() {
+		int ret = data[1];
+		swap(data[1], data[count--]);
+		maxHeapDown(1);
+		return ret;
+	}
 
+	void maxHeap::maxHeapDown(int k) {
+		int l = k * 2, r = k * 2 + 1;
+
+		while (2 * k < count)
+		{
+			int maxNode = (r < count && data[r] > data[l]) ? 2*k+1 : 2*k;
+			
+			// lc < rc 
+			//if (r < count && data[r] > data[l]) maxNode = r;
+
+			if (data[k] > data[maxNode]) break;
+			
+			swap(data[k], data[maxNode]); 
+
+			k = maxNode;
+		}
 	}
 
 	void maxHeap::testPrint() {

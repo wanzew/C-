@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-	priorityQueue::subMain();
+	//priorityQueue::subMain();
 	maxHeap::maxHeapMain();
 
 	system("pause");
