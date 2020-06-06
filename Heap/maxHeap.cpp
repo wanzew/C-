@@ -1,26 +1,9 @@
 #include "maxHeap.hpp"
 
 namespace maxHeap {
-	maxHeap::maxHeap(int capa) :capacity(capa),count(0){
-			data = new int[capa+1];
-		}
-	maxHeap::~maxHeap() { delete[] data; }
-		
-	int maxHeap::size() { return count; }
 
-	void maxHeap::insert(int item) {
-		data[++count] = item;
-		maxHeapUp(count);
-	}
 
-	int maxHeap::max() {
-		int v = data[1];
 
-		swap(data[count--], data[1]);
-		maxHeapDown(1);
-
-		return v;
-	}
 
 	void maxHeap::testPrint() {
 
@@ -78,13 +61,6 @@ namespace maxHeap {
 			cout << line2 << endl;
 
 			cur_tree_max_level_number /= 2;
-		}
-	}
-
-	void maxHeap::maxHeapUp(int index) {
-		while (index > 1 && data[index /2] < data[index]) {
-			swap(data[index], data[index / 2]);
-			index /= 2;
 		}
 	}
 
