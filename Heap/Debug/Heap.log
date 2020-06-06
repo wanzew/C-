@@ -1,0 +1,11 @@
+﻿  TestHelper.cpp
+c:\users\wanzew\documents\visual studio 2015\projects\cxx-data-struct-algo\heap\testhelper.cpp(6): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  priorityQueue.cpp
+  maxHeap.cpp
+c:\users\wanzew\documents\visual studio 2015\projects\cxx-data-struct-algo\heap\maxheap.cpp(107): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\wanzew\documents\visual studio 2015\projects\cxx-data-struct-algo\heap\maxheap.cpp(125): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\wanzew\documents\visual studio 2015\projects\cxx-data-struct-algo\heap\maxheap.cpp(127): warning C4018: “<”: 有符号/无符号不匹配
+  main.cpp
+  正在生成代码...
+  Heap.vcxproj -> C:\Users\wanzew\Documents\Visual Studio 2015\Projects\CXX-Data-Struct-Algo\Debug\Heap.exe
+  Heap.vcxproj -> C:\Users\wanzew\Documents\Visual Studio 2015\Projects\CXX-Data-Struct-Algo\Debug\Heap.pdb (Full PDB)
